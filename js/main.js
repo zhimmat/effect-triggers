@@ -6,6 +6,15 @@ var $box = $('.box');
 var $btnMove = $('.btn-move');
 var $diamond = $('.diamond');
 
+
 $btnShowHide.on('click', function () {
   $box.toggleClass('showbox');
+});
+
+$btnMove.on('click', function () {
+  $diamond.toggleClass('btn-slide');
+});
+
+$btnMove.on('click', function () {
+  $panel.toggleClass('collapse-panel');
 });
