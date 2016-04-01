@@ -66,9 +66,14 @@ div {
   width: 250px;
   background-color: yellow;
   transform: translateY(-50%);
-  transition: all -5 linear;
+  transition: all .2 linear;
   color: darkgoldenrod;
   text-align: center;
+}
+
+.collapse-panel {
+  max-height: 0;
+  transition: all .2 linear;
 }
 
 .panel h2 {
@@ -79,10 +84,17 @@ div {
 .circle {
   height: 100px;
   top: calc(50% - 50px);
+  right: -100px;
   width: 100px;
-
   background-color: orange;
   border-radius: 50%;
+}
+
+.bounce {
+  height: 100px;
+  right: -100px;
+  top: calc(50% - 50px);
+  animation: bounce 2s;
 }
 
 .list {
