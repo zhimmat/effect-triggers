@@ -64,10 +64,9 @@ div {
   overflow: hidden;
   top: 50%;
   width: 250px;
-
   background-color: yellow;
   transform: translateY(-50%);
-
+  transition: all -5 linear;
   color: darkgoldenrod;
   text-align: center;
 }
